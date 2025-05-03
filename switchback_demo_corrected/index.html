@@ -2,26 +2,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Boardwalk Switchback Demo</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boardwalk Switchback Demo</title>
 </head>
-<body style="font-family: sans-serif; text-align: center;">
-  <h2>Boardwalk Switchback Demo</h2>
-  <audio controls autoplay>
-    <source src="audio.mp3" type="audio/mpeg">
-    Your browser does not support the audio element.
-  </audio>
-  <br><br>
-  <iframe
-    title="Sketchfab Model"
-    width="90%"
-    height="480"
-    src="https://sketchfab.com/models/49e784d1f9244882966bdb99c6acfa1a/embed"
-    frameborder="0"
-    allow="autoplay; fullscreen; vr"
-    mozallowfullscreen="true"
-    webkitallowfullscreen="true">
-  </iframe>
+<body style="margin: 0; padding: 0; display: flex; flex-direction: column; align-items: center; background-color: #fff;">
+    <h2>Boardwalk Switchback Demo</h2>
+    <audio controls style="margin-bottom: 20px;">
+        <source src="audio.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <iframe
+        title="Boardwalk_01"
+        frameborder="0"
+        allowfullscreen
+        mozallowfullscreen="true"
+        webkitallowfullscreen="true"
+        allow="autoplay; fullscreen; xr-spatial-tracking"
+        xr-spatial-tracking
+        execution-while-out-of-viewport
+        execution-while-not-rendered
+        web-share
+        width="800"
+        height="480"
+        src="https://sketchfab.com/models/49e784d1f9244882966dbb99c6acaf1a/embed">
+    </iframe>
 </body>
 </html>
